@@ -1,0 +1,24 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "public": "../public/",
+  "paginate": {
+    "default": 10,
+    "max": 50
+  },
+  "mongodb": "mongodb://localhost:27017/test_task_api",
+  "startup-todo-items": [
+    {
+      "label": "Test Item #1",
+      "dueDate": 459431444
+    },
+    {
+      "label": "Test Item #2",
+      "dueDate": 717570015
+    },
+    {
+      "label": "Test Item #3",
+      "dueDate": 5572064785
+    }
+  ]
+}
